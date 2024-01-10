@@ -1,0 +1,43 @@
+.header {
+    height: 100px;
+    background-color: rebeccapurple;
+}
+.wrapper{
+    overflow: hidden;
+}
+.contact{
+    float: left;
+    width: 60%;
+    height: 150px;
+    background-color: aquamarine;
+}
+.blog {
+    float: right;
+    width: 35%;
+    height: 150px;
+    background-color: burlywood;
+}
+.footer{
+    height: 120px;
+    background-color: brown;
+}
+/* clearfix */
+.wrapper_{
+}
+.contact_{
+    float: left;
+    width: 60%;
+    height: 150px;
+    background-color: aquamarine;
+}
+.blog_ {
+    float: right;
+    width: 35%;
+    height: 150px;
+    background-color: burlywood;
+}
+.footer_{
+    clear: both;
+    height: 120px;
+    background-color: brown;
+}
